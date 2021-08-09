@@ -1,0 +1,22 @@
+@import "assets/styles/_buttons";
+@import "assets/styles/_typography";
+@import "assets/styles/_variables";
+
+body{
+    background-image: url("assets/images/download.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    .navbar__list{
+        display:flex;
+        flex-direction: column;
+        .navbar__item{
+
+
+        }
+    }
+
+}
