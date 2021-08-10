@@ -1,7 +1,10 @@
 @import "assets/styles/_buttons";
 @import "assets/styles/_typography";
 @import "assets/styles/_variables";
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-image: url("assets/images/download.jpeg");
     background-repeat: no-repeat;
@@ -11,8 +14,16 @@ body{
     display: flex;
     .navbar__list{
         display:flex;
-        flex-direction: column;
-        
+        flex-direction: column; 
+        .navbar__item{
+            list-style-type: none;
+        }
+        .navbar__item a{
+            color: $secondarycolor;
+        }
+        .navbar__title{
+            color: $primarycolor;
+        }
     }
 
 }
