@@ -4,6 +4,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: $primaryfont;
 }
 body{
     background-image: url("assets/images/download.jpeg");
@@ -17,12 +18,15 @@ body{
         flex-direction: column; 
         .navbar__item{
             list-style-type: none;
+            margin: 30px 10px;
         }
         .navbar__item a{
             color: $secondarycolor;
+            text-decoration: wavy;
         }
         .navbar__title{
             color: $primarycolor;
+            margin-left: 10px;
         }
     }
 
