@@ -1,0 +1,42 @@
+@import "assets/styles/_buttons";
+@import "assets/styles/_typography";
+@import "assets/styles/_variables";
+
+body{
+    background-color: black;
+    color: $primarycolor;
+    font-family: $primaryfont;
+}
+
+.title{
+    display:flex;
+    justify-content: center;
+    color: $secondarycolor;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    border: 2px solid white;
+    .projects__box{
+        background-color: $tertiarycolor;
+    }
+    .projects__box h4{
+        color: $primarycolor;
+        display: flex;
+        justify-content: center;
+    }
+    .projects__box p{
+        display: flex;
+        justify-content: center;
+    }
+    .projects__box__display{
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        width: 200px;
+        margin: 15px;
+        border: 1px solid white;
+    }
+}

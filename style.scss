@@ -6,11 +6,11 @@
     padding: 0;
     font-family: $primaryfont;
 }
+
 body{
-    background-image: url("assets/images/download.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: black;
 }
+
 .navbar{
     display: flex;
     .navbar__list{
@@ -29,5 +29,36 @@ body{
             margin-left: 10px;
         }
     }
+}
 
+.projects{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20px;
+    border: 2px solid $primarycolor;
+    .projects__title{
+        display:flex;
+        justify-content: center;
+        color: $secondarycolor;
+    }
+    .projects__box{
+        background-color: $tertiarycolor;
+    }
+    .projects__box h4{
+        color: $primarycolor;
+        display: flex;
+        justify-content: center;
+    }
+    .projects__box p{
+        display: flex;
+        justify-content: center;
+    }
+    .projects__box__display{
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        width: 200px;
+        margin: 15px;
+        border: 1px solid $primarycolor;
+    }
 }
