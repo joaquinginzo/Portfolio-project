@@ -32,12 +32,12 @@ body {
   display: flex;
   flex-direction: column;
   margin: 30px 20px;
-  border: 2px solid white;
 }
 .projects .projects__title {
   display: flex;
   justify-content: center;
   color: #6cf9ff;
+  margin-bottom: 10px;
 }
 .projects .projects__box {
   background-color: #655d78;
@@ -45,10 +45,12 @@ body {
 .projects .projects__box h4 {
   color: white;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 .projects .projects__box p {
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 .projects .projects__box__display {
