@@ -12,7 +12,7 @@ body {
   display: flex;
 }
 .navbar .navbar__img {
-  height: 55vh;
+  height: 60vh;
   width: 80vw;
   margin-right: 0px;
   margin-top: 0px;
@@ -28,6 +28,7 @@ body {
 .navbar .navbar__list .navbar__item a {
   color: #6cf9ff;
   text-decoration: wavy;
+  font-size: x-large;
 }
 .navbar .navbar__list .navbar__title {
   color: white;

@@ -14,7 +14,7 @@ body{
 .navbar{
     display: flex;
     .navbar__img{
-        height: 55vh;
+        height: 60vh;
         width: 80vw;
         margin-right: 0px;
         margin-top: 0px;
@@ -29,6 +29,7 @@ body{
         .navbar__item a{
             color: $secondarycolor;
             text-decoration: wavy;
+            font-size: x-large;
         }
         .navbar__title{
             color: $primarycolor;
