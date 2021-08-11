@@ -14,10 +14,10 @@ body{
 .navbar{
     display: flex;
     .navbar__img{
-        height: 20vh;
-        width: 40vw;
-        margin-right: 40px;
-        margin-top: 60px;
+        height: 55vh;
+        width: 80vw;
+        margin-right: 0px;
+        margin-top: 0px;
     }
     .navbar__list{
         display:flex;
@@ -48,6 +48,40 @@ body{
         margin-bottom: 10px;
     }
     .projects__box{
+        background-color: $tertiarycolor;
+    }
+    .projects__box h4{
+        color: $primarycolor;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .projects__box p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .projects__box__display{
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        width: 200px;
+        margin: 15px;
+        border: 1px solid $primarycolor;
+    }
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20px;
+    .about__title{
+        display:flex;
+        justify-content: center;
+        color: $secondarycolor;
+        margin-bottom: 10px;
+    }
+    .about__reference{
         background-color: $tertiarycolor;
     }
     .projects__box h4{
