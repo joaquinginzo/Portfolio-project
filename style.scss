@@ -13,6 +13,12 @@ body{
 
 .navbar{
     display: flex;
+    .navbar__img{
+        height: 20vh;
+        width: 40vw;
+        margin-right: 40px;
+        margin-top: 60px;
+    }
     .navbar__list{
         display:flex;
         flex-direction: column; 
