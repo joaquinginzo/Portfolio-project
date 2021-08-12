@@ -65,6 +65,10 @@ body {
   border: 1px solid white;
   margin: auto;
 }
+.projects .projects__box .projects__box__display img {
+  height: 500px;
+  width: 300px;
+}
 .projects .projects__box h4 {
   color: white;
   display: flex;
@@ -77,4 +81,6 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
+  margin: 10px;
+  font-size: 20px;
 }
