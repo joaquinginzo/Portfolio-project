@@ -51,7 +51,8 @@ body {
   justify-content: center;
   color: #b82453;
   margin-bottom: 10px;
-  font-size: 64px;
+  font-size: 48px;
+  border-top: 2px solid #b82453;
 }
 .projects .projects__box {
   display: flex;
@@ -74,7 +75,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 32px;
+  font-size: 28px;
+  margin: 15px 0px;
+  text-decoration: underline;
 }
 .projects .projects__box p {
   display: flex;
@@ -82,5 +85,21 @@ body {
   justify-content: center;
   color: white;
   margin: 10px;
-  font-size: 20px;
+  font-size: 24px;
+}
+
+.about .about__box {
+  border-top: 2px solid #b82453;
+  margin: 10px;
+  padding-top: 20px;
+  justify-content: center;
+}
+.about .about__box h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+.about .about__box p {
+  font-size: 24px;
 }
