@@ -13,12 +13,6 @@ body{
 
 .navbar{
     display: flex;
-    .navbar__img{
-        height: 60vh;
-        width: 80vw;
-        margin-right: 0px;
-        margin-top: 0px;
-    }
     .navbar__list{
         display:flex;
         flex-direction: column; 
@@ -29,11 +23,13 @@ body{
         .navbar__item a{
             color: $secondarycolor;
             text-decoration: wavy;
-            font-size: x-large;
+            font-size: 58px;
+            
         }
         .navbar__title{
             color: $primarycolor;
             margin-left: 10px;
+            font-size: 64px;
         }
     }
 }
@@ -41,7 +37,10 @@ body{
 .projects{
     display: flex;
     flex-direction: column;
-    margin: 30px 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 40px;
     .projects__title{
         display:flex;
         justify-content: center;
@@ -56,52 +55,24 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 5px;
     }
     .projects__box p{
         display: flex;
         align-items: center;
         justify-content: center;
+        margin: 50px 10px;
+        padding: 0px 20px;
     }
     .projects__box__display{
         display: flex;
         justify-content: center;
+        align-items: center;
         height: 100px;
         width: 200px;
-        margin: 15px;
         border: 1px solid $primarycolor;
+        margin-left: 30px;
     }
 }
 
-.about{
-    display: flex;
-    flex-direction: column;
-    margin: 30px 20px;
-    .about__title{
-        display:flex;
-        justify-content: center;
-        color: $secondarycolor;
-        margin-bottom: 10px;
-    }
-    .about__reference{
-        background-color: $tertiarycolor;
-    }
-    .projects__box h4{
-        color: $primarycolor;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .projects__box p{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .projects__box__display{
-        display: flex;
-        justify-content: center;
-        height: 100px;
-        width: 200px;
-        margin: 15px;
-        border: 1px solid $primarycolor;
-    }
-}

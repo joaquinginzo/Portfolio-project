@@ -11,12 +11,6 @@ body {
 .navbar {
   display: flex;
 }
-.navbar .navbar__img {
-  height: 60vh;
-  width: 80vw;
-  margin-right: 0px;
-  margin-top: 0px;
-}
 .navbar .navbar__list {
   display: flex;
   flex-direction: column;
@@ -28,17 +22,21 @@ body {
 .navbar .navbar__list .navbar__item a {
   color: #6cf9ff;
   text-decoration: wavy;
-  font-size: x-large;
+  font-size: 58px;
 }
 .navbar .navbar__list .navbar__title {
   color: white;
   margin-left: 10px;
+  font-size: 64px;
 }
 
 .projects {
   display: flex;
   flex-direction: column;
-  margin: 30px 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 40px;
 }
 .projects .projects__title {
   display: flex;
@@ -54,51 +52,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 .projects .projects__box p {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 50px 10px;
+  padding: 0px 20px;
 }
 .projects .projects__box__display {
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 100px;
   width: 200px;
-  margin: 15px;
   border: 1px solid white;
-}
-
-.about {
-  display: flex;
-  flex-direction: column;
-  margin: 30px 20px;
-}
-.about .about__title {
-  display: flex;
-  justify-content: center;
-  color: #6cf9ff;
-  margin-bottom: 10px;
-}
-.about .about__reference {
-  background-color: #655d78;
-}
-.about .projects__box h4 {
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.about .projects__box p {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.about .projects__box__display {
-  display: flex;
-  justify-content: center;
-  height: 100px;
-  width: 200px;
-  margin: 15px;
-  border: 1px solid white;
+  margin-left: 30px;
 }
