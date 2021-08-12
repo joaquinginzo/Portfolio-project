@@ -1,16 +1,21 @@
 @import "assets/styles/_buttons";
 @import "assets/styles/_typography";
 @import "assets/styles/_variables";
+@import "assets/styles/_icons";
 *{
     margin: 0;
     padding: 0;
     font-family: $primaryfont;
 }
 
-body{
+
+body {
     background-color: black;
 }
 
+.welcome-image{
+    width: 100vw;
+}
 .navbar{
     display: flex;
     .navbar__list{
@@ -23,12 +28,12 @@ body{
         .navbar__item a{
             color: $primarycolor;
             text-decoration: wavy;
-            font-size: 58px; 
+            font-size: 48px; 
         }
         .navbar__title{
             color: $primarycolor;
             margin-left: 10px;
-            font-size: 64px;
+            font-size: 56px;
         }
     }
 }
@@ -38,31 +43,28 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
-    margin-left: 40px;
     .projects__title{
         display:flex;
         justify-content: center;
         color: $secondarycolor;
         margin-bottom: 10px;
+        font-size: 64px;
     }
     .projects__box{
-        background-color: $tertiarycolor;
     }
     .projects__box h4{
         color: $primarycolor;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 10px;
-        margin-bottom: 5px;
+        
+        font-size: 48px;
     }
     .projects__box p{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 50px 10px;
-        padding: 0px 20px;
+        color: $primarycolor;
     }
     .projects__box__display{
         display: flex;
